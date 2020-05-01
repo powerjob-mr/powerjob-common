@@ -1,4 +1,4 @@
-package com.github.kfcfans.common;
+package com.github.kfcfans.oms.common;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.github.kfcfans.common;
+package com.github.kfcfans.oms.common;
 
 /**
  * 系统生成的任务实例运行结果

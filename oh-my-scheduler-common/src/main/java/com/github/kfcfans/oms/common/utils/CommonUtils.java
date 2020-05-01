@@ -1,4 +1,4 @@
-package com.github.kfcfans.common.utils;
+package com.github.kfcfans.oms.common.utils;
 
 import lombok.extern.slf4j.Slf4j;
 

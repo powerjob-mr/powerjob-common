@@ -1,6 +1,6 @@
-package com.github.kfcfans.common.response;
+package com.github.kfcfans.oms.common.response;
 
-import com.github.kfcfans.common.OmsSerializable;
+import com.github.kfcfans.oms.common.OmsSerializable;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

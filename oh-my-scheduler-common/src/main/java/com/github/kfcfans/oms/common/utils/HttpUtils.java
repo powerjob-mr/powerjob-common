@@ -1,4 +1,4 @@
-package com.github.kfcfans.common.utils;
+package com.github.kfcfans.oms.common.utils;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

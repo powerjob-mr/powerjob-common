@@ -1,4 +1,4 @@
-package com.github.kfcfans.common.utils;
+package com.github.kfcfans.oms.common.utils;
 
 /**
  * Represents a supplier of results.

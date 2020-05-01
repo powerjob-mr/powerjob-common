@@ -1,7 +1,7 @@
-package com.github.kfcfans.common.request;
+package com.github.kfcfans.oms.common.request;
 
-import com.github.kfcfans.common.OmsSerializable;
-import com.github.kfcfans.common.model.SystemMetrics;
+import com.github.kfcfans.oms.common.OmsSerializable;
+import com.github.kfcfans.oms.common.model.SystemMetrics;
 import lombok.Data;
 
 

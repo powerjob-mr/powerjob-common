@@ -1,9 +1,7 @@
-package com.github.kfcfans.common.model;
+package com.github.kfcfans.oms.common.model;
 
-import com.github.kfcfans.common.OmsSerializable;
+import com.github.kfcfans.oms.common.OmsSerializable;
 import lombok.Data;
-
-import java.io.Serializable;
 
 /**
  * 系统指标
