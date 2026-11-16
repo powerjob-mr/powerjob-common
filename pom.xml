@@ -36,14 +36,7 @@
     </developers>
 
     <modules>
-        <module>powerjob-worker</module>
-        <module>powerjob-server</module>
         <module>powerjob-common</module>
-        <module>powerjob-client</module>
-        <module>powerjob-worker-agent</module>
-        <module>powerjob-worker-spring-boot-starter</module>
-        <module>powerjob-worker-samples</module>
-        <module>powerjob-official-processors</module>
         <module>powerjob-remote</module>
     </modules>
 
