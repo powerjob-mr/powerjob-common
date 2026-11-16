@@ -1,0 +1,133 @@
+{
+  "command": "mvn -B clean verify",
+  "java": "Eclipse Temurin 1.8.0_452-b09",
+  "maven": "3.9.9",
+  "passed": true,
+  "upstream_commit": "d92ad66277ca54e14e2835b2e5a6aaf01f620684",
+  "sibling_checkouts": {},
+  "modes": {
+    "sibling": {
+      "passed": true,
+      "reactor": [
+        "powerjob",
+        "powerjob-common",
+        "powerjob-remote",
+        "powerjob-remote-framework",
+        "powerjob-remote-impl-http",
+        "powerjob-remote-impl-akka",
+        "powerjob-remote-impl-mu"
+      ],
+      "tests": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "tests_by_module": {
+        "powerjob-common": {
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-remote/powerjob-remote-framework": {
+          "tests": 8,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-remote/powerjob-remote-impl-http": {
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-remote/powerjob-remote-impl-mu": {
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      }
+    },
+    "standalone": {
+      "passed": true,
+      "reactor": [
+        "powerjob",
+        "powerjob-common",
+        "powerjob-remote",
+        "powerjob-remote-framework",
+        "powerjob-remote-impl-http",
+        "powerjob-remote-impl-akka",
+        "powerjob-remote-impl-mu"
+      ],
+      "tests": {
+        "tests": 24,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "tests_by_module": {
+        "powerjob-common": {
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-remote/powerjob-remote-framework": {
+          "tests": 8,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-remote/powerjob-remote-impl-http": {
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-remote/powerjob-remote-impl-mu": {
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      }
+    }
+  },
+  "monorepo_baseline_tests_by_module": {
+    "powerjob-common": {
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-remote/powerjob-remote-framework": {
+      "tests": 10,
+      "failures": 0,
+      "errors": 2,
+      "skipped": 0
+    },
+    "powerjob-remote/powerjob-remote-impl-http": {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-remote/powerjob-remote-impl-mu": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "excluded_tests": 2,
+  "artifacts": [
+    "powerjob-common/target/powerjob-common-5.1.7.jar",
+    "powerjob-remote/powerjob-remote-framework/target/powerjob-remote-framework-5.1.7.jar",
+    "powerjob-remote/powerjob-remote-impl-akka/target/powerjob-remote-impl-akka-5.1.7.jar",
+    "powerjob-remote/powerjob-remote-impl-http/target/powerjob-remote-impl-http-5.1.7.jar",
+    "powerjob-remote/powerjob-remote-impl-mu/target/powerjob-remote-impl-mu-5.1.7.jar"
+  ],
+  "scope": "This repository's modules and tests. sibling: built with the sibling library checkouts in the reactor; standalone: built alone against the published 5.1.7 artifacts. Excluded upstream tests are listed in split.json."
+}
